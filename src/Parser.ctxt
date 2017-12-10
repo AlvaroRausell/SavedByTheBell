@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\r\n\ This\ class\ belongs\ to\ "Saved\ by\ the\ Bell",\ an\ intense,\ time-dependent,\ text-based\ game.\r\n\r\n\ Every\ time\ the\ player\ enters\ a\ new\ room,\ a\ new\ Parser\ object\ is\ created\ with\ the\ commands\ available\r\n\ for\ that\ specific\ room,\ increasing\ the\ uniqueness\ of\ each\ stage.\r\n\r\n\ This\ parser\ reads\ user\ input\ and\ tries\ to\ interpret\ it\ as\ an\ "Adventure"\r\n\ command.\ Every\ time\ it\ is\ called\ it\ reads\ a\ line\ from\ the\ terminal\ and\r\n\ tries\ to\ interpret\ the\ line\ as\ a\ two\ or\ three\ word\ command.\ It\ returns\ the\ command\r\n\ as\ an\ object\ of\ class\ Command.\r\n\r\n\ The\ parser\ has\ a\ set\ of\ known\ command\ words.\ It\ checks\ user\ input\ against\r\n\ the\ known\ commands,\ and\ if\ the\ input\ is\ not\ one\ of\ the\ known\ commands,\ it\r\n\ returns\ a\ command\ object\ that\ is\ marked\ as\ an\ unknown\ command.\r\n\r\n\ @author\ \ \u00C1lvaro\ Rausell\r\n\ @version\ 08.12.2017\r\n
+comment1.params=room\ characterManager
+comment1.target=Parser(Room,\ CharacterManager)
+comment1.text=\r\n\ Create\ a\ parser\ to\ read\ from\ the\ terminal\ window,\ obtaining\ the\ available\ commands\ by\ calling\ room.getActions().\r\n
+comment2.params=
+comment2.target=Command\ getCommand()
+comment2.text=\r\n\ Reads\ the\ command\ line\ input\ by\ the\ user\ and\ returns\ either\ a\ two\ or\ a\ three\ word\ Command\ object\r\n\ @return\ The\ next\ command\ from\ the\ user.\r\n
+comment3.params=command
+comment3.target=boolean\ processCommand(Command)
+comment3.text=\r\n\ Given\ a\ command,\ process\ (that\ is\:\ execute)\ the\ command.\r\n\ @param\ command\ The\ command\ to\ be\ processed.\r\n\ @return\ true\ If\ the\ command\ ends\ the\ game,\ false\ otherwise.\r\n
+comment4.params=
+comment4.target=void\ printHelp()
+comment4.text=\r\n\ Prints\ help\ info,\ which\ includes\ the\ overall\ objective\ and\ the\ information\ concerning\ the\ room.\r\n\ Information\ such\ as\ name\ and\ description\ of\ the\ room\ as\ well\ as\ commands\ allowed\ and\ the\ presence\ of\ items/characters.\r\n
+numComments=5

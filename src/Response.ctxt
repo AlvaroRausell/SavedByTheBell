@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Response
+comment0.text=\r\n\ Response\ interface\ created\ for\ "Saved\ by\ the\ bell"\ game.\r\n\ Its\ utility\ is\ to\ save\ a\ method\ to\ be\ executed\ when\ a\ dialog\ receives\ a\ reply.\r\n\ This\ method\ would\ be\ executed\ by\ implementing\ the\ respond()\ method,\ and\ will\ take\ the\ reply\r\n\ as\ parameter.\r\n\r\n\ @author\ \u00C1lvaro\ Rausell\r\n\ @version\ 08.12.2017\r\n
+comment1.params=reply
+comment1.target=void\ respond(java.lang.String)
+comment1.text=\r\n\ Method\ triggered\ by\ a\ reply\ by\ the\ user\r\n\ @param\ reply\ Reply\ input\ by\ the\ user\r\n
+numComments=2

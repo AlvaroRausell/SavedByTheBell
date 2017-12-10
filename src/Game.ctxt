@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ \ This\ class\ is\ the\ main\ class\ of\ the\ "Saved\ by\ the\ bell"\ application.\r\n\ "The\ BlueJ\ Odyssey"\ is\ an\ intense,\ time-dependent,\ text-based\ game.\r\n\ Its\ objective\ is\ to\ walk\ through\ the\ different\ rooms\ to\ go\ to\ the\ examination\ hall\ in\ time\ for\ the\ exam.\r\n\ However,\ the\ player\ should\ also\ take\ into\ account\ variables\ such\ as\ comfort\ and\ stress,\ since\ they\ will\ play\ a\ role\r\n\ in\ the\ outcome\ of\ the\ game.\r\n\r\n\ The\ amount\ of\ time\ available\ will\ be\ dependent\ on\ the\ difficulty\ chosen\ by\ the\ player,\ having\ more\ time\ the\ easier\ options.\r\n\r\n\ \ To\ play\ this\ game,\ create\ an\ instance\ of\ this\ class\ and\ call\ the\ "play"\r\n\ \ method.\r\n\r\n\ \ This\ main\ class\ creates\ and\ initialises\ all\ the\ others\:\ it\ creates\ all\ the\ managers,\ which\ initialise\ their\ corresponding\ fields,\r\n\ \ creates\ the\ parser\ and\ starts\ the\ game.\r\n\r\n\ @author\ \ \u00C1lvaro\ Rausell\r\n\ @version\ 08.12.2017\r\n
+comment1.params=
+comment1.target=Game()
+comment1.text=\r\n\ Create\ the\ game\ and\ initialise\ the\ different\ managers.\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ rest\ of\ elements\ of\ the\ game,\ such\ as\ the\ main\ character\ and\ the\ implementation\ of\ the\ itemManager\ class.\r\n\ It\ also\ sets\ up\ the\ difficulty\ given\ an\ input\ form\ the\ user,\ making\ the\ time\ available\ greater\ the\ easier\ it\ it\ set.\r\n
+comment3.params=
+comment3.target=void\ play()
+comment3.text=\r\n\ \ Main\ play\ routine.\ \ Loops\ until\ end\ of\ play.\r\n
+comment4.params=
+comment4.target=void\ printWelcome()
+comment4.text=\r\n\ Print\ out\ the\ opening\ message\ for\ the\ player.\r\n
+comment5.params=
+comment5.target=void\ lose()
+comment5.text=\r\n\ Is\ called\ when\ the\ player\ did\ not\ get\ to\ the\ exam\ on\ time.\r\n\ Displays\ a\ message\ and\ quits\ the\ game.\r\n
+comment6.params=command
+comment6.target=boolean\ quit(Command)
+comment6.text=\r\n\ "Quit"\ was\ entered.\ Check\ the\ rest\ of\ the\ command\ to\ see\r\n\ whether\ we\ really\ quit\ the\ game.\r\n\ @return\ true,\ if\ this\ command\ quits\ the\ game,\ false\ otherwise.\r\n
+numComments=7

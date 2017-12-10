@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ItemManager
+comment1.params=roomManager\ characterManager
+comment1.target=ItemManager(RoomManager,\ CharacterManager)
+comment1.text=\r\n\ Creates\ an\ ItemManager\ object\ while\ initialising\ the\ items\ ArrayList\ and\ creating\ instances\ for\ mainCharacter\ and\r\n\ roomManager.\r\n\ It\ also\ calls\ the\ method\ setItems,\ which\ will\ create\ every\ item\ in\ the\ game\ and\ store\ it\ in\ the\ items\ ArrayList\r\n\ @param\ roomManager\ Room\ manager\r\n@param\ characterManager\ Character\ manager
+comment2.params=
+comment2.target=void\ setItems()
+comment2.text=\r\n\ Initialises\ all\ the\ items\ in\ the\ game\ and\ adds\ them\ to\ the\ items\ ArrayList.\r\n
+comment3.params=name
+comment3.target=Item\ getItem(java.lang.String)
+comment3.text=\r\n\ Searches\ through\ the\ items\ ArrayList\ to\ find\ an\ item\ with\ name\ that\ matches\ the\ parameter.\r\n\ @param\ name\ Name\ of\ the\ item\ to\ find\r\n@return\ Item\ object
+numComments=4

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=CharacterManager
+comment1.params=
+comment1.target=CharacterManager()
+comment1.text=\r\n\ Creates\ the\ CharacterManager\ object\ and\ initialises\ the\ characterList\ ArrayList\r\n
+comment2.params=roomManager
+comment2.target=void\ setRoomManager(RoomManager)
+comment2.text=\r\n\ Sets\ the\ roomManager\ instance\r\n\ @param\ roomManager\ RoomManager\ object\r\n
+comment3.params=
+comment3.target=void\ setCharacterList()
+comment3.text=\r\n\ Initialises\ and\ stores\ all\ the\ NPCs\ in\ the\ game\ and\ their\ actions\r\n
+comment4.params=
+comment4.target=java.util.ArrayList\ getCharacterList()
+comment4.text=\r\n\ Returns\ the\ characterList\ ArrayList\r\n\ @return\ characterList\r\n
+comment5.params=name
+comment5.target=Character\ getCharacterByName(java.lang.String)
+comment5.text=\r\n\ Retrieves\ a\ character\ object\ by\ the\ name\r\n\ @param\ name\ Name\ of\ the\ character\r\n@return\ character
+comment6.params=name\ room\ time
+comment6.target=void\ setMainCharacter(java.lang.String,\ Room,\ int)
+comment6.text=\r\n\ Sets\ the\ main\ character\ of\ the\ game\ and\ stores\ it\r\n\ @param\ name\ Name\ of\ the\ character\r\n\ @param\ room\ Initial\ room\r\n\ @param\ time\ Time\ from\ which\ to\ count\ down\r\n
+comment7.params=room
+comment7.target=java.util.ArrayList\ getCharactersByRoom(Room)
+comment7.text=\r\nReturns\ a\ list\ of\ all\ the\ characters\ present\ in\ the\ specified\ room\r\n\ @param\ room\ Room\ in\ which\ to\ search\ for\ players\r\n\ @return\ List\ of\ characters\ in\ the\ room\r\n
+comment8.params=
+comment8.target=MainCharacter\ getMainCharacter()
+comment8.text=Returns\ the\ main\ character\ of\ the\ game\r\n\ @return\ main\ character\r\n
+numComments=9

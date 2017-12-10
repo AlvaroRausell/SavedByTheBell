@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Dialog
+comment0.text=\r\n\ Dialog\ class\ for\ "Saved\ by\ the\ bell"\ game.\r\n\r\n\ This\ class\ is\ in\ charge\ of\ storing\ the\ possible\ dialogs\r\n\ that\ are\ displayed\ when\ the\ player\ interacts\ with\ a\ character.\r\n\r\n\ Not\ only\ this,\ but\ it\ also\ holds\ a\ boolean\ that\ is\ set\ to\ true\ when\r\n\ a\ conversation\ requires\ a\ reply,\ as\ well\ as\ a\ method\ form\ the\ self-made\r\n\ Response\ interface\ that\ will\ trigger\ an\ action\ according\ to\ the\ reply\ input\ by\ the\ user\ and\r\n\ other\ factors.\r\n\r\n\ @author\ \u00C1lvaro\ Rausell\r\n\ @version\ 08.12.2017\r\n
+comment1.params=dialog\ requiresReply\ answer
+comment1.target=Dialog(java.lang.String,\ java.lang.Boolean,\ Response)
+comment1.text=\r\n\ Initialises\ a\ Dialog\ object\r\n\ @param\ dialog\ Initial\ sentence\ from\ the\ character\r\n\ @param\ requiresReply\ True\ if\ the\ initial\ dialog\ requires\ a\ reply\ by\ the\ user\r\n\ @param\ answer\ Action\ that\ is\ triggered\ in\ consequence\ of\ the\ reply\ input\ by\ the\ user\r\n
+comment2.params=
+comment2.target=void\ displayDialog()
+comment2.text=\r\n\ Displays\ the\ initial\ dialog\ and\ requests\ a\ reply\ if\ the\ conversation\ requires\ one\r\n
+comment3.params=
+comment3.target=void\ requestReply()
+comment3.text=\r\n\ Requests\ a\ reply\ by\ the\ user,\ which\ then\ triggers\ answer.respond()\ set\ initially\ in\ the\ constructor\r\n
+numComments=4

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=CommandWords
+comment0.text=\r\n\ CommandWords\ class\ for\ "Saved\ by\ the\ bell"\ game\r\n\r\n\ This\ class\ holds\ an\ enumeration\ of\ all\ command\ words\ known\ available\ for\ a\ specific\ set\ of\ actions.\r\n\ It\ lists\ all\ basic\ commands\ that\ are\ common\ to\ all\ rooms\ in\ the\ game\ while\ it\ also\ adds\ extra\ commands\r\n\ that\ are\ unique\ to\ each\ room\ in\ particular.\r\n\r\n\ It\ is\ used\ to\ recognise\ commands\ as\ they\ are\ typed\ in.\r\n\r\n\ @author\ \ \u00C1lvaro\ Rausell\r\n\ @version\ 08.12.2017\r\n
+comment1.params=actions
+comment1.target=CommandWords(java.lang.String[])
+comment1.text=\r\n\ Initialises\ the\ command\ words\ by\ collecting\ the\ basic\ commands\r\n\ and\ the\ ones\ specific\ to\ each\ room\ (obtained\ as\ the\ parameter\ actions).\r\n\r\n\ @param\ actions\ Actions\ specific\ to\ a\ room\r\n
+comment2.params=aString
+comment2.target=boolean\ isCommand(java.lang.String)
+comment2.text=\r\n\ Check\ whether\ a\ given\ String\ is\ a\ valid\ command\ word.\ \r\n\ @return\ true\ if\ it\ is,\ false\ if\ it\ isn't.\r\n
+comment3.params=command
+comment3.target=void\ addCommand(java.lang.String)
+comment4.params=command
+comment4.target=void\ removeCommand(java.lang.String)
+comment5.params=
+comment5.target=java.util.ArrayList\ getValidCommands()
+comment5.text=\r\n\ @return\ all\ the\ valid\ commands\r\n
+numComments=6

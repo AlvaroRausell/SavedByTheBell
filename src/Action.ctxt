@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Action
+comment0.text=\r\n\ Action\ interface\ created\ for\ "Saved\ by\ the\ bell"\ game.\r\n\ Its\ utility\ is\ to\ save\ a\ method\ to\ be\ executed\ when\ an\ item\ is\ used.\r\n\ This\ method\ would\ be\ executed\ by\ implementing\ the\ run()\ method.\r\n\r\n\ @author\ \u00C1lvaro\ Rausell\r\n\ @version\ 08.12.2017\r\n
+comment1.params=
+comment1.target=void\ run()
+numComments=2
