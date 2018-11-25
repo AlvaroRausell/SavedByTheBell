@@ -1,4 +1,4 @@
-# SavedByTheBell
+# Saved By The Bell
 Small text-based adventure game in which the player's choices directly affect the outcome of the game.
 Developed for Programming Practice and Applications at King's College London.
 
